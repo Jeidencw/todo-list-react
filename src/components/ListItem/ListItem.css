@@ -47,3 +47,7 @@ ul li .row i:hover{
     transform: rotate(15deg) skew(25deg) scale(0);
   }
 }
+
+.checked{
+  text-decoration: line-through;
+}
