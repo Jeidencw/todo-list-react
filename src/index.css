@@ -1,5 +1,13 @@
-body {
+:root{
+  --cor-primaria: #e5e5e5;
+  --primaria-sombra: 	#0002;
+  --verdinho: teal;
+}
+
+*{
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +18,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--cor-primaria);
+}
+
+.app{
+  width: 400px;
+  min-height: 500px;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 20px;
+  box-shadow: 10px 10px 13px var(--primaria-sombra),
+              -10px -10px 13px #0002;
+}
+
+.app h1{
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--cor-primaria);
+  margin-bottom: 20px;
+  text-shadow: -3px -3px 3px var(--primaria-sombra),
+              3px 3px 3px #0002;
+}
+
+.dark-mode{
+  --cor-primaria: gray;
+  --primaria-sombra: 	#4F4F4F;
+  --verdinho: #1C1C1C;
 }

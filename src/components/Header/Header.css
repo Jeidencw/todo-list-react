@@ -1,0 +1,6 @@
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px 15px;
+    cursor: pointer;
+}

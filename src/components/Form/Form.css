@@ -1,0 +1,29 @@
+form{
+  margin: 20px;
+  height: 40px;
+  width: 100%;
+}
+
+
+form input,
+form button{
+  width: 250px;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  padding: 0 5px;
+  box-shadow: inset -5px -5px 5px var(--primaria-sombra),
+              inset 5px 5px 5px #0002;
+} 
+
+form button{
+  width: 80px;
+  margin-left: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  box-shadow: -5px -5px 5px var(--primaria-sombra),
+              5px 5px 5px #0002;
+}
+
